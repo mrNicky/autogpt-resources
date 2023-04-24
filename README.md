@@ -1,10 +1,16 @@
 # 🤖 AutoGPT - AI-Powered Workflow System
 AutoGPT is an AI-driven system designed to enhance user interactions and streamline workflows using OpenAI's ChatGPT.
 
-![auto_gpt](https://user-images.githubusercontent.com/39512726/234097856-40217e13-93b5-4a62-901c-7d21dc6e7033.png)
+Silicon Valley's latest fascination is Auto-GPT, an open-source app that leverages OpenAI's AI models, GPT-3.5 and GPT-4, to autonomously perform tasks. It interacts with online and local software, handling follow-up interactions with the AI models until a task is complete. Auto-GPT's popularity stems from its ability to engage with various applications and services, like creating basic websites and devising marketing strategies.
 
 
 ## 📋 Workflow Overview
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/39512726/234097856-40217e13-93b5-4a62-901c-7d21dc6e7033.png" alt="auto_gpt">
+</p>
+ 
 
 1. **👤 User Input**: Users provide a name for their AI agent and set up to 5 goals in the terminal.
 2. **📥 Initial Prompt**: An initial prompt based on user input is sent to the ChatGPT API, including instructions and commands.
@@ -16,6 +22,7 @@ AutoGPT is an AI-driven system designed to enhance user interactions and streaml
 8. **💡 Relevant Memories**: The system queries long-term memory to retrieve the top-K most relevant memories based on short-term memory context.
 9. **🔄 New Prompt**: A new prompt is created with the initial instructions, relevant memories, and an instruction to generate the next command.
 10. **🔁 Loop**: The system repeats steps 3 to 10 until ChatGPT completes the task and issues the shut down command.
+
 
 ## AI agents have been gaining traction for the past four weeks, showcasing a wide range of remarkable advancements:
 
